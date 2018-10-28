@@ -1,6 +1,7 @@
 const expect = chai.expect;
 spyOnNumberIsInteger.restore();
 
+
 describe('index.js', function() {
   describe('newID', function() {
     it('converts IDs from the old style to the new style', function() {
